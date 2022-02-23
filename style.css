@@ -1,0 +1,68 @@
+body {
+  padding: 50px;
+  
+}
+
+.grid{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: 
+  'header header header'
+  'nav main main'
+  'footer footer footer';
+}
+
+/*The asterisk makes it so all elements in a grid are effected. */ 
+.header {
+  grid-area: header;
+  background-color: #19381F;
+}
+
+.main {
+  grid-area: main;
+    background-color: #19381F;
+
+}
+
+.nav {
+  grid-area: nav;
+    background-color: #19381F;
+
+}
+
+.footer {
+  grid-area: footer;
+    background-color: #19381F;
+    text-align: center;
+
+
+}
+
+.left{
+  grid-area: left;
+  text-align: left;
+}
+
+.right{
+  grid-area: right;
+  text-align: center;
+}
+
+.concept_nav1{
+list-style-type: upper-roman;
+  color: red ;
+}
+.concept_nav2{
+list-style-type: lower: roman;
+  color: blue ;
+}
+.page2-grid{
+  background-color: #19381F;
+  display: grid;
+  grid-template-areas: 
+  "header header header header"
+  "left left right right"
+  "left left right right"
+  "main main nav nav"
+  "footer footer footer footer";
+}
