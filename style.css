@@ -55,8 +55,17 @@ list-style-type: upper-roman;
 list-style-type: lower: roman;
   color: blue ;
 }
+
+/* Creates the lines for the table on page 2*/
+table, th, td {
+  border:1px solid cadetblue ;
+}
+.ol_page2{
+
+  list-style-type: numeric;
+}
 .page2-grid{
-  background-color: #19381F;
+  background-color: #254E70;
   display: grid;
   grid-template-areas: 
   "header header header header"
