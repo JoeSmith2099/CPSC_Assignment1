@@ -3,6 +3,18 @@ body {
   
 }
 
+ h1, p, img, ol, li, ul{
+  color: #8EE3EF;
+
+ }
+
+h3{
+  text-align: center;
+}
+header,footer,nav,main{
+color: #C33C54;
+}
+
 .grid{
   display: grid;
   grid-gap: 10px;
@@ -15,62 +27,56 @@ body {
 /*The asterisk makes it so all elements in a grid are effected. */ 
 .header {
   grid-area: header;
-  background-color: #19381F;
+  background-color: #254E70;
 }
 
 .main {
   grid-area: main;
-    background-color: #19381F;
+    background-color: #254E70;
 
 }
 
 .nav {
   grid-area: nav;
-    background-color: #19381F;
+    background-color: #254E70;
 
 }
 
 .footer {
   grid-area: footer;
-    background-color: #19381F;
+    background-color: #254E70;
     text-align: center;
 
 
 }
 
-.left{
-  grid-area: left;
-  text-align: left;
-}
-
-.right{
-  grid-area: right;
-  text-align: center;
+.list_page1{
+   background-color: rgb(195,60,84);
 }
 
 .concept_nav1{
-list-style-type: upper-roman;
+  list-style-type: upper-roman;
 }
 .concept_nav2{
-list-style-type: lower: roman;
+  list-style-type: lower: roman;
   color: blue ;
 }
 
+td.page2{
+  background-color: hotpink;
+}
 /* Creates the lines for the table on page 2*/
 table, th, td {
   border:1px solid cadetblue ;
+ font-family: Georgia,Times,Times New Roman,serif;
+  font-size: 24px
 }
+
 .ol_page2{
 
   list-style-type: numeric;
 }
-.page2-grid{
-  background-color: #254E70;
-  display: grid;
-  grid-template-areas: 
-  "header header header header"
-  "left left right right"
-  "left left right right"
-  "main main nav nav"
-  "footer footer footer footer";
+th.table_page2{
+  background-color: black;
+  color: white;
 }
