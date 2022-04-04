@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Page 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class = "grid">
+      <header class = "header"><img src = "/images/CPSC2125_Errors.png"></header>
+      <main class = "main"><h3><p>Form</p></h3>
+        <form name="myForm" action="https://webdevbasics.net/scripts/yoga.php" onsubmit="return validateForm()" method="post">
+          <label for= "fullname">Full Name:</label><br>
+            <input type="text" id = "fullname" name="fullname" required><br>
+          <label for="number">Number: </label><br>
+            <input type ="tel" id = "number" name = "number"><br>
+          <label for = "bday">Birth Date: </label><br>
+            <input type = "date" name ="bday" required><br>
+          <label for = "email">Email Address:</label><br>
+            <input type = "email" name ="email" required><br>
+          <label for ="username">Username: </label><br>
+            <input type="text" name ="username" required><br>
+          <label for="password">Password:</label><br>
+            <input type="password" id = "password" name ="password" required><br><br>
+          <input type="submit" value="Submit"><br>
+        </form>
+          </main>
+      <nav class = "nav">
+        <ul>
+          <li><a href ="index.html">Home</a></li>
+          <li><a href ="page1.html">Page 1</a></li>
+          <li><a href ="page2.html">Page 2</a></li>
+          <li><a href ="https://www.columbusstate.edu">CSU Homepage</a></li>
+        </ul></nav>
+      <footer class = "footer"><p>Contact Us:<br><br>Phone - (458)-567-4234<br>Email - billybob@email.com </p></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
